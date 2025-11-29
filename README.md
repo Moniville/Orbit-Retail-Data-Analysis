@@ -62,7 +62,8 @@ The Power BI report utilizes dynamic measures, clean visual design, and filter p
 
 <img width="784" height="438" alt="image" src="https://github.com/user-attachments/assets/62f13cfb-51f0-40fd-ad39-d1e6c158fb73" />
 
-<img width="784" height="438" alt="Screenshot 2025-11-29 085739" src="https://github.com/user-attachments/assets/0091e10e-9c04-4544-a1d6-d3a87c8fe692" />
+<img width="783" height="439" alt="Screenshot 2025-11-29 085725" src="https://github.com/user-attachments/assets/655cf2b1-2bd3-47b2-9720-6eccb1f62e6e" />
+
 
 
 
