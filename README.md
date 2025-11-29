@@ -76,5 +76,5 @@ The Power BI report utilizes dynamic measures, clean visual design, and filter p
 | `sql/01_elt_data_cleaning.sql` | Contains the database setup, staging table DDL, and the final `analytics.fact_sales` table creation with date and null handling. |
 | `sql/02_analytical_views.sql` | Contains the logic for the complex **Materialized View** (`analytics.sales_anomalies`), which uses window functions to calculate 30-day moving averages and flag deviations. |
 | `sql/03_dashboard_queries.sql` | Contains the five final, verified `SELECT` queries used to extract data for the Power BI report. |
-| 'raw/train.csv` | The original, messy source file. |
+| `raw/train.csv` | The original, messy source file. |
 | `power_bi/Orbit_Retail_Dashboard.pbix` | The final Power BI Report file. |
