@@ -1,4 +1,4 @@
-# Orbit Retail: End-to-End Sales Performance and Risk Analysis
+# Orbit Retail: End-to-End Sales Performance
 
 ## 🧑‍💻 Context & My Role: Analytics Engineer Intern
 I joined **Orbit Retail**, a high-growth e-commerce startup specializing in the global distribution of office, furniture, and technology products. As the company scaled, they faced a critical challenge: their raw transactional data was **messy, slow to process, and led to reactive decision-making**. Specifically, errors like non-standard date formats (e.g., `DD/MM/YYYY`) and missing information were breaking reports, and a lack of real-time insights meant the team often missed catastrophic sales events until it was too late.
@@ -10,7 +10,7 @@ This project was designed to establish data trust and platform performance throu
 
 | Objective Category | Deliverable | Technical Skill Demonstrated |
 | :--- | :--- | :--- |
-| **Data Trust & Structure (ELT)** | Design and implement a professional two-tier data architecture (`raw` $\rightarrow$ `analytics` schemas) in PostgreSQL to separate source data from final reports. | Schema Design, Data Modeling |
+| **Data Trust & Structure (ELT)** | Design and implement a professional two-tier data architecture (`raw`, `analytics` schemas) in PostgreSQL to separate source data from final reports. | Schema Design, Data Modeling |
 | **Optimize Report Performance (DE)** | Utilize **Materialized Views** to pre-calculate complex, slow-running queries (like the rolling 30-day average sales baseline). | Performance Tuning, Materialized Views |
 | **Implement Proactive Alerting** | Employ Advanced SQL **Window Functions** (`AVG() OVER (...)`) to create an automated system that flags immediate Sales Anomaly Alerts. | Advanced SQL, Proactive Analytics |
 
